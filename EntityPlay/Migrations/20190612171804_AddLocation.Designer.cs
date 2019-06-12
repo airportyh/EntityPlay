@@ -4,14 +4,16 @@ using EntityPlay.Databases;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EntityPlay.Migrations
 {
     [DbContext(typeof(ExampleDatabase))]
-    partial class ExampleDatabaseModelSnapshot : ModelSnapshot
+    [Migration("20190612171804_AddLocation")]
+    partial class AddLocation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,8 +33,7 @@ namespace EntityPlay.Migrations
 
                     b.Property<string>("Location");
 
-                    b.Property<string>("Notes")
-                        .IsRequired();
+                    b.Property<string>("Notes");
 
                     b.Property<string>("Title");
 
@@ -48,7 +49,6 @@ namespace EntityPlay.Migrations
                             Id = 1,
                             CustomerId = 1,
                             Date = new DateTimeOffset(new DateTime(2019, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, -5, 0, 0, 0)),
-                            Notes = "They are dirty",
                             Title = "Get Teeth Cleaned"
                         },
                         new
@@ -56,7 +56,6 @@ namespace EntityPlay.Migrations
                             Id = 2,
                             CustomerId = 2,
                             Date = new DateTimeOffset(new DateTime(2019, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, -5, 0, 0, 0)),
-                            Notes = "They hurt",
                             Title = "Get Teeth Pulled"
                         },
                         new
@@ -64,7 +63,6 @@ namespace EntityPlay.Migrations
                             Id = 3,
                             CustomerId = 2,
                             Date = new DateTimeOffset(new DateTime(2019, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, -4, 0, 0, 0)),
-                            Notes = "Too long",
                             Title = "Get hair cut"
                         },
                         new
@@ -72,7 +70,6 @@ namespace EntityPlay.Migrations
                             Id = 4,
                             CustomerId = 2,
                             Date = new DateTimeOffset(new DateTime(2019, 6, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, -4, 0, 0, 0)),
-                            Notes = "I am sleepy",
                             Title = "Get coffee"
                         },
                         new
@@ -80,7 +77,6 @@ namespace EntityPlay.Migrations
                             Id = 5,
                             CustomerId = 1,
                             Date = new DateTimeOffset(new DateTime(2019, 7, 4, 0, 0, 0, 0, DateTimeKind.Unspecified), new TimeSpan(0, -4, 0, 0, 0)),
-                            Notes = "My tummy hurts",
                             Title = "Get tea"
                         });
                 });
