@@ -11,5 +11,7 @@ namespace EntityPlay.Entities
         public string Title { get; set; }
         public DateTimeOffset Date { get; set; }
         public int CustomerId { get; set; }
+
+        public string Notes { get; set; }
     }
 }
