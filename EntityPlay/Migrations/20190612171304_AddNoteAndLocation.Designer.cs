@@ -4,14 +4,16 @@ using EntityPlay.Databases;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EntityPlay.Migrations
 {
     [DbContext(typeof(ExampleDatabase))]
-    partial class ExampleDatabaseModelSnapshot : ModelSnapshot
+    [Migration("20190612171304_AddNoteAndLocation")]
+    partial class AddNoteAndLocation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
