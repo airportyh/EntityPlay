@@ -32,7 +32,8 @@ namespace EntityPlay.Databases
 
             modelBuilder.Entity<Customer>().HasData(
                 new Customer() { Id = 1, Age = 5, Name = "James" },
-                new Customer() { Id = 2, Age = 6, Name = "Byron" }
+                new Customer() { Id = 2, Age = 6, Name = "Byron" },
+                new Customer() { Id = 3, Age = 7, Name = "Nora" }
             );
 
             modelBuilder.Entity<Appointment>().HasData(
