@@ -39,7 +39,8 @@ namespace EntityPlay.Databases
             modelBuilder.Entity<Appointment>().HasData(
                 new Appointment() { Id = 1, CustomerId = 1, Date = new DateTime(2019, 1, 1), Title = "Get Teeth Cleaned" },
                 new Appointment() { Id = 2, CustomerId = 2, Date = new DateTime(2019, 2, 5), Title = "Get Teeth Pulled" },
-                new Appointment() { Id = 3, CustomerId = 2, Date = new DateTime(2019, 5, 1), Title = "Get hair cut" }
+                new Appointment() { Id = 3, CustomerId = 2, Date = new DateTime(2019, 5, 1), Title = "Get hair cut" },
+                new Appointment() { Id = 4, CustomerId = 1, Date = new DateTime(2019, 7, 4), Title = "Get tea" }
             );
         }
     }
