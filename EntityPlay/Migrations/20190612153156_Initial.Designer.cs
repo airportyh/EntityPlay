@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityPlay.Migrations
 {
     [DbContext(typeof(ExampleDatabase))]
-    [Migration("20190612151032_AddedSeedData")]
-    partial class AddedSeedData
+    [Migration("20190612153156_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -44,15 +44,22 @@ namespace EntityPlay.Migrations
                         {
                             Id = 1,
                             CustomerId = 1,
-                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 10, 32, 323, DateTimeKind.Unspecified).AddTicks(4925), new TimeSpan(0, -4, 0, 0, 0)),
+                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 31, 56, 737, DateTimeKind.Unspecified).AddTicks(4266), new TimeSpan(0, -4, 0, 0, 0)),
                             Title = "Get Teeth Cleaned"
                         },
                         new
                         {
                             Id = 2,
                             CustomerId = 2,
-                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 10, 32, 326, DateTimeKind.Unspecified).AddTicks(7065), new TimeSpan(0, -4, 0, 0, 0)),
+                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 31, 56, 739, DateTimeKind.Unspecified).AddTicks(5439), new TimeSpan(0, -4, 0, 0, 0)),
                             Title = "Get Teeth Pulled"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CustomerId = 2,
+                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 31, 56, 739, DateTimeKind.Unspecified).AddTicks(5463), new TimeSpan(0, -4, 0, 0, 0)),
+                            Title = "Get hair cut"
                         });
                 });
 
@@ -84,6 +91,12 @@ namespace EntityPlay.Migrations
                             Id = 2,
                             Age = 6,
                             Name = "Byron"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Age = 7,
+                            Name = "Nora"
                         });
                 });
 

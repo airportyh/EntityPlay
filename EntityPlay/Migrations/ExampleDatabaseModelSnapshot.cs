@@ -42,21 +42,21 @@ namespace EntityPlay.Migrations
                         {
                             Id = 1,
                             CustomerId = 1,
-                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 14, 27, 731, DateTimeKind.Unspecified).AddTicks(5242), new TimeSpan(0, -4, 0, 0, 0)),
+                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 31, 56, 737, DateTimeKind.Unspecified).AddTicks(4266), new TimeSpan(0, -4, 0, 0, 0)),
                             Title = "Get Teeth Cleaned"
                         },
                         new
                         {
                             Id = 2,
                             CustomerId = 2,
-                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 14, 27, 733, DateTimeKind.Unspecified).AddTicks(4614), new TimeSpan(0, -4, 0, 0, 0)),
+                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 31, 56, 739, DateTimeKind.Unspecified).AddTicks(5439), new TimeSpan(0, -4, 0, 0, 0)),
                             Title = "Get Teeth Pulled"
                         },
                         new
                         {
                             Id = 3,
                             CustomerId = 2,
-                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 14, 27, 733, DateTimeKind.Unspecified).AddTicks(4639), new TimeSpan(0, -4, 0, 0, 0)),
+                            Date = new DateTimeOffset(new DateTime(2019, 6, 12, 11, 31, 56, 739, DateTimeKind.Unspecified).AddTicks(5463), new TimeSpan(0, -4, 0, 0, 0)),
                             Title = "Get hair cut"
                         });
                 });
@@ -89,6 +89,12 @@ namespace EntityPlay.Migrations
                             Id = 2,
                             Age = 6,
                             Name = "Byron"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Age = 7,
+                            Name = "Nora"
                         });
                 });
 
