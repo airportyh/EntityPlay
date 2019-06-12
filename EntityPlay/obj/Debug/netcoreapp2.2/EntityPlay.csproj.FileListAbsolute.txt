@@ -1,0 +1,14 @@
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\bin\Debug\netcoreapp2.2\EntityPlay.deps.json
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\bin\Debug\netcoreapp2.2\EntityPlay.runtimeconfig.json
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\bin\Debug\netcoreapp2.2\EntityPlay.runtimeconfig.dev.json
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\bin\Debug\netcoreapp2.2\EntityPlay.dll
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\bin\Debug\netcoreapp2.2\EntityPlay.pdb
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.csprojAssemblyReference.cache
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.csproj.CoreCompileInputs.cache
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.RazorAssemblyInfo.cache
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.RazorAssemblyInfo.cs
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.AssemblyInfoInputs.cache
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.AssemblyInfo.cs
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.RazorTargetAssemblyInfo.cache
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.dll
+C:\Users\TobyHo\source\repos\EntityPlay\EntityPlay\obj\Debug\netcoreapp2.2\EntityPlay.pdb
